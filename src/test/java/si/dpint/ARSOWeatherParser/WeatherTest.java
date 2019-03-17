@@ -1,12 +1,13 @@
 package si.dpint.ARSOWeatherParser;
 
+
 import org.junit.jupiter.api.Test;
 import si.dpint.ARSOWeatherParser.weatherstation.ApiEndpoint;
 import si.dpint.ARSOWeatherParser.util.MannedStationsLoader;
 import si.dpint.ARSOWeatherParser.weatherstation.mannedweatherstation.MurskaSobota;
 import si.dpint.ARSOWeatherParser.weatherstation.WeatherStation;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class WeatherTest {
 

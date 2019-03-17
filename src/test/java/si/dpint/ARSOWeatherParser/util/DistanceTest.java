@@ -1,9 +1,10 @@
 package si.dpint.ARSOWeatherParser.util;
 
+
 import org.junit.jupiter.api.Test;
 import si.dpint.ARSOWeatherParser.weatherstation.GeoPoint;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class DistanceTest {
 
